@@ -8,7 +8,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient (#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F);
+    background: linear-gradient(#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F);
 }
 
 header, footer {
@@ -38,7 +38,7 @@ main {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-    background-color: #da6062;
+
     display: flex;
 }
 
