@@ -13,7 +13,6 @@ body {
 
 header, footer {
     height: 100px;
-    background-color: #cf2425;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -38,7 +37,6 @@ main {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-
     display: flex;
 }
 
