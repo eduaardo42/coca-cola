@@ -6,31 +6,29 @@
 body {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F);
+    display: grid;
+    grid-auto-rows: 100px 1fr 50px;
+    background: linear-gradient(#0e8867,#cfbc18,#cfbc18 60%,#0e8867);
 }
 
 header, footer {
     height: 100px;
     color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    place-items: center;
     padding: 0 20px;
 }
 header {
     height: 100px;
-    display: flex;
-    align-items: center;
-    gap: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 30vw;
+    gap: 20px;
     color: #ffffff;
-    padding-left: 75px;
-    justify-content: left;
-    
+
 }
-.logotipo-guarana {
-    height: 65px;
+.logotipo-coca{
+    height:65px;
 }
 
 header span {
@@ -58,17 +56,18 @@ main {
 
 .content-text {
     position: absolute;
-    color: #ffffff;
+    color: #0e8867;
     font-size: 2.5rem;
-    width: 240px;
+    width: 230px;
+    height: 10px;
     transform: translateX(-100%);
     text-align: end;
-    margin-right: 20px;
+    margin-right: 25px;
 
 }
 
 .content-image {
-    height: 85vh;
+    height: 60vh;
 }
 
 footer {
