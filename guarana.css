@@ -22,7 +22,7 @@ header {
     height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 30vw;
+    width: 5vw;
     gap: 10px;
     color: #ffffff;
 
@@ -58,11 +58,20 @@ main {
     color: #0e8867;
     font-size: 2.5rem;
     width: 230px;
-    height: 10px;
+    height: 100px;
     transform: translateX(-100%);
     text-align: end;
-    margin-right: 25px;
-
+    margin-right: 5px;
+}
+@media (max-width: 768px) {
+    .content-text {
+        color: #e9170e;
+    }
+}
+@media (min-width: 1288px) {
+    .content-text {
+        color: #e9170e;
+    }
 }
 
 .content-image {
@@ -78,6 +87,7 @@ footer {
     padding-left: 75px;
     color: #FFFFFF;
     font-weight: 100;
+    
 }
 
 footer div {
